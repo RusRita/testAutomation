@@ -31,8 +31,7 @@ public class PrimulTest {
         webDriver.findElement(By.cssSelector("[class='btn btn-action']")).click();
         Assert.assertEquals(webDriver.findElement(By.cssSelector("[class='alert alert-dismissable alert-danger']")).getText(), "Invalid login or password.");
         System.out.println("Test passed -Invalid Account");
-    }sadfasdfasdfdas
-f
+    }
     @Test
     public void ValidAccount(){
         webDriver.get("https://staging.lessonplanet.com");
